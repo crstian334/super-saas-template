@@ -31,7 +31,7 @@ Navigate to the project directory and install the necessary packages:
 
 ```bash
 cd super-saas-template
-npm install
+pnpm install
 ```
 
 ### 3. Set Up Environment Variables
